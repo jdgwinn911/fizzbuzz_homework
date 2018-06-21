@@ -27,11 +27,11 @@ class FizzBuzz < Minitest::Test
        assert_equal(98, fizzbuzz[97])
    end
 
-   def test_assert_that_every_number_divisible_by_3_is_mined
+   def test_assert_that_number_divisible_by_3_is_mined
        assert_equal("mined", fizzbuzz()[2])
    end
 
-   def test_assert_that_every_number_divisible_by_5_is_minds
+   def test_assert_that_number_divisible_by_5_is_minds
     assert_equal("minds", fizzbuzz()[4])
    end
 

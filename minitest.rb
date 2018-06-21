@@ -15,12 +15,12 @@ class FizzBuzz < Minitest::Test
         assert_equal(1,fizzbuzz[0])
     end
     
-    def test_if_forty_second_array_number_is_42
-        assert_equal(42,fizzbuzz[41])
+    def test_if_forty_second_array_number_is_44
+        assert_equal(44,fizzbuzz[43])
     end
   
-    def test_if_seventy_fifth_array_number_is_75
-       assert_equal(75,fizzbuzz[74])
+    def test_if_seventy_fifth_array_number_is_74
+       assert_equal(74,fizzbuzz[73])
     end
 
    def test_if_ninety_eighth_array_number_is_98

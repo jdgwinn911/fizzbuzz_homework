@@ -1,23 +1,23 @@
 def fizzbuzz()
     fizzy = []
-    f = 0
+    val = 0
     loop do 
-        f += 1
-        fizzy << f 
-        if fizzy[f - 1] % 3 == 0
-            t = f 
-            f = "mined"
-            fizzy.insert(t, f)
-            fizzy.delete(t)
-            f = t
-        elsif fizzy[f - 1] %5 ==0
-            t = f
-            f = "minds"
-            fizzy.insert(t, f)
-            fizzy.delete(t)
-            f = t 
+        val += 1
+        fizzy << val
+        if fizzy[val - 1] % 3 == 0
+            indx = val
+            val = "mined"
+            fizzy.insert(indx, val)
+            fizzy.delete(indx)
+            val = indx
+        elsif fizzy[val - 1] %5 ==0
+            indx = val
+            val = "minds"
+            fizzy.insert(indx, val)
+            fizzy.delete(indx)
+            val = indx 
         end
-        if f == 100
+        if val == 100
           break
         end
     end

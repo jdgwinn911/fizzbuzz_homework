@@ -35,7 +35,10 @@ class FizzBuzz < Minitest::Test
     assert_equal("minds", fizzbuzz()[4])
    end
 
-
+   def test_assert_that_number_divisible_by_15_is_mined_minds
+    assert_equal("mined minds", fizzbuzz()[14])
+   end
+   
 
 
 

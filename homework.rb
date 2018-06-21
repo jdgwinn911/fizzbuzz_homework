@@ -1,5 +1,5 @@
 def fizzbuzz()
     fizzy = []
-    f = 0
-    fizzy
+    f = 1
+    fizzy << f
 end

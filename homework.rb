@@ -4,7 +4,13 @@ def fizzbuzz()
     loop do 
         val += 1
         fizzy << val
-        if fizzy[val - 1] % 3 == 0
+        if fizzy[val - 1] % 15 == 0
+            indx = val
+            val = "mined minds"
+            fizzy.insert(indx, val)
+            fizzy.delete(indx)
+            val = indx
+        elsif fizzy[val - 1] % 3 == 0
             indx = val
             val = "mined"
             fizzy.insert(indx, val)
@@ -20,6 +26,7 @@ def fizzbuzz()
         if val == 100
           break
         end
+
     end
    
     fizzy 

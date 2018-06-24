@@ -39,8 +39,12 @@ class FizzBuzz < Minitest::Test
     assert_equal("mined minds", fizzbuzz()[14])
    end
 
-   def test_assert_that_if_forty_fifth_array_number_is_45
+   def test_assert_that_if_forty_fifth_array_number_is_mined_minds
        assert_equal("mined minds", fizzbuzz()[44])
+   end
+
+   def test_assert_that_seventy_fifth_array_number_is_mined_minds
+       assert_equal("mined minds", fizzbuzz()[74])
    end
 
 end
